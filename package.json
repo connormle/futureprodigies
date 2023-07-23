@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
+    "dev": "vite",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -16,7 +16,9 @@
     "@vitejs/plugin-vue": "^4.2.3",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.26",
+    "prerender-spa-plugin": "^3.2.1",
     "tailwindcss": "^3.3.3",
-    "vite": "^4.3.9"
+    "vite": "^4.3.9",
+    "vue-cli-plugin-prerender-spa": "~1.1.6"
   }
 }
