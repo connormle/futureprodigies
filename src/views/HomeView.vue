@@ -64,7 +64,7 @@
     <div class="flex flex-col lg:flex-row justify-around items-center">
       <div class="flex flex-col items-center justify-center space-y-1 text-center">
         <div class="rounded-full">
-          <img class="border shadow-gray-600 shadow-2xl  rounded-full w-32" src="../assets/ethan.jpg" alt="">
+          <img class="border shadow-gray-600 shadow-2xl  rounded-full w-32" src="../assets/ethan2.jpg" alt="">
         </div>
         <h2 class="text-lg">Ethan Le</h2>
             <h2 class="text-lg">HBHS, 2024</h2>
@@ -81,23 +81,43 @@
   </div>
   
   <div class="container mx-auto mt-8">
-  </div>
-  <div ref="con2" class="container mx-auto pt-12 bg-blue-400 rounded-md text-white shadow-2xl shadow-blue-400">
+    <div ref="con2" class="container mx-auto pt-12 bg-blue-400 rounded-md text-white shadow-2xl shadow-blue-400">
     <div class="flex flex-col lg:flex-row justify-around items-center">
       <div class="flex flex-col items-center justify-center space-y-1 text-center">
         <div class="rounded-full">
           <img class="border shadow-gray-600 shadow-2xl  rounded-full w-32" src="../assets/michael.jpg" alt="">
         </div>
-        <h2 class="text-lg">Michael Le</h2>
+        <h2 class="text-lg">Connor Le</h2>
             <h2 class="text-lg">HBHS</h2>
       </div>
       <div class="flex items-center justify-center md:w-[68%] p-5">
         <p class="text-sm md:text-lg">
     
-  Michael Le is the developer behind Future Prodigies'  you are currently exploring. Michael allows Future Prodigies to connect with its audience and inspire a brighter future for gifted individuals.
+  Connor Le is the developer behind Future Prodigies'  you are currently exploring. Michael allows Future Prodigies to connect with its audience and inspire a brighter future for gifted individuals.
         </p>
         </div>
     </div>
+  </div>
+  </div>
+
+
+  <div class="container mx-auto mt-8">
+    <div ref="con3" class="container mx-auto pt-12 bg-purple-400 rounded-md text-white shadow-2xl shadow-blue-400">
+    <div class="flex flex-col lg:flex-row justify-around items-center">
+      <div class="flex flex-col items-center justify-center space-y-1 text-center">
+        <div class="rounded-full">
+          <img class="border shadow-gray-600 shadow-2xl  rounded-full w-32" src="../assets/amrit.jpg" alt="">
+        </div>
+        <h2 class="text-lg">Amrit Grewal</h2>
+            <h2 class="text-lg">HBHS, 2024</h2>
+      </div>
+      <div class="flex items-center justify-center md:w-[68%] p-5">
+        <p class="text-sm md:text-lg">
+          Hello! I'm Amrit, a senior at Huntington Beach High School, deeply immersed in the world of tennis as an active member of the school team. Beyond sports, I take on roles such as supervising the Seva Collective food drive and actively participating in clubs like the Cultural Awareness Club and Pickleball club. Off the court, I balance my time hitting the gym, exploring biking trails, and savoring moments with friends. But my true passion lies in tutoring. I find immense joy in helping others grasp concepts and excel academically. Joining Future Prodigies is a perfect fit for me as I eagerly anticipate collaborating with fellow tutors and students alike. I can't wait to bring my enthusiasm for learning into every session, fostering a positive and engaging environment where everyone can thrive.
+        </p>
+        </div>
+    </div>
+  </div>
   </div>
 
 <section class="container mx-auto mt-40">
@@ -174,6 +194,7 @@ import { RouterView } from 'vue-router';
   const con = ref(null)
   const svg = ref(null)
   const con2 = ref(null)
+  const con3 = ref(null)
   const w1 = ref(null)
   const w2 = ref(null)
   const w3 = ref(null)
@@ -231,6 +252,19 @@ import { RouterView } from 'vue-router';
         end: "bottom bottom", // Adjust this value to control when the animation ends
       },
     })
+
+    gsap.from(con3.value, {
+      y: 100,
+      opacity: 0,
+      duration: 1,
+      scrollTrigger: {
+        trigger: con2.value,
+        toggleActions: "restart none none none",
+        start: "top bottom", // Adjust this value to control when the animation starts
+        end: "bottom bottom", // Adjust this value to control when the animation ends
+      },
+    })
+
 
     gsap.from(w1.value, {
       x: -20,
@@ -292,7 +326,7 @@ import { RouterView } from 'vue-router';
   });
   
   </script>
-  <style>
+  <style scoped>
   body {
     overflow-x: hidden !important;
   }

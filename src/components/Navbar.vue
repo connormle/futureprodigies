@@ -1,9 +1,12 @@
 <template>
-    <div ref="navbar" class="sticky top-0 left-0 z-10 navbar flex items-center justify-evenly shadow-lg py-2 w-screen bg-gray-100">
+     <div
+    ref="navbar"
+    class="sticky top-0 left-0 z-10 navbar flex items-center justify-evenly shadow-lg py-2 w-screen bg-gray-100"
+  >
         <div class="logo cursor-pointer">
             <RouterLink to="/">  <img src="../assets/logo.png" class="w-80 r-2" alt=""></RouterLink>
         </div>
-        <div class="relative hidden space-x-6 font-semibold md:flex gap-5 md:flex items-center">
+        <div class="relative hidden space-x-6 font-semibold xl:flex gap-5 xl:flex items-center">
             <span class="text-lg text-gray-700 hover:text-green duration-100"> <RouterLink to="/">Home</RouterLink></span>
             <div class="relative flex-col">
     <span @click="dropdownToggle" class="cursor-pointer text-lg text-gray-700 hover:text-green duration-100">
@@ -18,19 +21,23 @@
               <span class="text-lg text-gray-700 hover:text-green duration-100"> <RouterLink to="/grouptutoring">Group Tutoring</RouterLink></span>
               <span class="text-lg text-gray-700 hover:text-green duration-100"> <RouterLink to="/counseling">Academic Counseling</RouterLink></span>
               <span class="text-lg text-gray-700 hover:text-green duration-100"> <RouterLink to="/homework">Homework Help</RouterLink></span>
+              <span class="text-lg text-gray-700 hover:text-green duration-100"> <RouterLink to="/ap">AP Test Prep</RouterLink></span>
+            <span class="text-lg text-gray-700 hover:text-green duration-100"> <RouterLink to="/sat">SAT/ACT Prep</RouterLink></span>
             </div>
             </div>
-           <span class="text-lg text-gray-700 hover:text-green duration-100 ">  <RouterLink to="/about">About</RouterLink></span>
+            <span class="text-lg text-gray-700 hover:text-green duration-100 ">  <RouterLink to="/packages">Packages</RouterLink></span>
+            <span class="text-lg text-gray-700 hover:text-green duration-100 ">  <RouterLink to="/about">About</RouterLink></span>
+           <span class="text-lg text-gray-700 hover:text-green duration-100 ">  <RouterLink to="/faq">FAQ</RouterLink></span>
         <span class="px-4 py-2 text-white bg-green rounded-full"><a href="#footer">Contact</a></span>
         </div>
-        <button ref="button" @click="toggle" id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+        <div>
+        <button ref="button" @click="toggle" id="menu-btn" class="block hamburger xl:hidden focus:outline-none">
           <span class="hamburger-top"></span>
           <span class="hamburger-middle"></span>
           <span class="hamburger-bottom"></span>
         </button>
-        <div class="md:hidden">
-        </div>
-        <div class="md:hidden">
+      </div>
+      <div class="xl:hidden">
     <div ref="mobile" class="text-gray-800 flex absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
         <span class="text-lg text-gray-700 hover:text-green duration-100"> <RouterLink to="/">Home</RouterLink></span>
            <span @click="toggleMobile" class="cursor-pointer text-lg text-gray-700 hover:text-green duration-100"> Services  <i ref="mobileicon" class="rotate-[270deg] fa-solid fa-caret-down" ></i></span>
@@ -39,8 +46,12 @@
               <span class="text-lg text-gray-700 hover:text-green duration-100"> <RouterLink to="/grouptutoring">Group Tutoring</RouterLink></span>
               <span class="text-lg text-gray-700 hover:text-green duration-100"> <RouterLink to="/counseling">Academic Counseling</RouterLink></span>
               <span class="text-lg text-gray-700 hover:text-green duration-100"> <RouterLink to="/homework">Homework Help</RouterLink></span>
+              <span class="text-lg text-gray-700 hover:text-green duration-100"> <RouterLink to="/ap">AP Test Prep</RouterLink></span>
+            <span class="text-lg text-gray-700 hover:text-green duration-100"> <RouterLink to="/sat">SAT/ACT Prep</RouterLink></span>
             </div>
+            <span class="text-lg text-gray-700 hover:text-green duration-100 ">  <RouterLink to="/packages">Packages</RouterLink></span>
            <span class="text-lg text-gray-700 hover:text-green duration-100 ">  <RouterLink to="/about">About</RouterLink></span>
+           <span class="text-lg text-gray-700 hover:text-green duration-100 ">  <RouterLink to="/faq">FAQ</RouterLink></span>
     </div>
     </div>
     </div>

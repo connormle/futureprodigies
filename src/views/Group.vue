@@ -9,7 +9,7 @@
 <br><br>
 Our group tutoring brings together students with similar academic goals and subjects, creating a dynamic and supportive learning environment. Collaborating with peers allows for shared insights, diverse perspectives, and mutual encouragement, enhancing the overall learning experience
 <br><br>
-Our tutors foster a positive and inclusive atmosphere, ensuring that every student feels comfortable asking questions, seeking clarification, and sharing their ideas. This collaborative approach nurtures confidence, boosts motivation, and encourages students to take ownership of their learning journey.
+Our tutors foster a positive and inclusive atmosphere, ensuring that every student feels comfortable asking questions, seeking clarification, and sharing their ideas. This collaborative approach nurtures confidence, boosts motivation, and encourages students to take ownership of their learning journey. Each session is priced at <strong>$15 an hour per person</strong> and we can ensure high-quality instruction for all students. 
 
 </p>
 </div>

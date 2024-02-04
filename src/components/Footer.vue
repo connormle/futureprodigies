@@ -12,6 +12,11 @@
     <span class="text-lg d text-white">  <RouterLink to="/counseling">Academic Counseling</RouterLink></span>
     <span class="text-lg  text-white">  <RouterLink to="/homework">Homework Help</RouterLink></span>
   </div>
+  <div class="p-10 flex flex-col justify-center gap-4 text-center">
+  <span class="text-lg  text-white"> <RouterLink to="/ap">AP Test Prep</RouterLink></span>
+  <span class="text-lg  text-white"> <RouterLink to="/sat">SAT/ACT Prep</RouterLink></span>
+  <span class="text-lg  text-white"> <RouterLink to="/packages">Packages</RouterLink></span>
+  </div>
   <div class="flex-col gap-10 p-10">
     <p class="text-lg p-6 text-white text-center">Ready to schedule an Appointment?</p>
     <p class="text-white text-lg font-bold text-center">Email: <span class="font-medium">futureprodigiescontact@gmail.com</span></p>

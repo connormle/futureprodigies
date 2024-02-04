@@ -9,7 +9,7 @@ Our private tutoring for students is designed to provide a solid foundation and 
 <br><br>
 At Future Prodigies, we understand that everyone learns at their own pace, especially when starting with little or no prior knowledge. Our experienced tutors specialize in working with raw beginners, guiding them through the fundamental concepts with patience and expertise. 
 <br><br>
-Whether it's mathematics, language arts, science, or any other subject, our personalized approach ensures that each tutoring session is tailored to the unique learning needs of the raw beginner. We break down complex concepts into manageable steps, using clear explanations and engaging teaching methods to foster understanding.
+Whether it's mathematics, language arts, science, or any other subject, our personalized approach ensures that each tutoring session is tailored to the unique learning needs of the raw beginner. We break down complex concepts into manageable steps, using clear explanations and engaging teaching methods to foster understanding. Priced at <strong>$25 per hour </strong>, our private tutoring sessions offer high-quality instruction that is both effective and affordable.
 
 </p>
 </div>
