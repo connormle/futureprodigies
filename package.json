@@ -17,7 +17,7 @@
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.26",
     "prerender-spa-plugin": "^3.2.1",
-    "tailwindcss": "^3.3.3",
+    "tailwindcss": "^3.4.14",
     "vite": "^4.3.9",
     "vue-cli-plugin-prerender-spa": "~1.1.6"
   }
